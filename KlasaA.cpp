@@ -3,7 +3,7 @@
 KlasaA::KlasaA()
 {
 	std::puts("KlasaA constructor");
-	KlasaPochodna* p = new KlasaPochodna("Hejooo");
+	auto p = new KlasaBazowa<KlasaA>("Hejooo");
 }
 
 static KlasaA instance_;

@@ -1,4 +1,4 @@
-#include "KlasaPochodna.h"
+#include "KlasaBazowa.h"
 
 class KlasaA
 {
